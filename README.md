@@ -11,11 +11,11 @@ Personal loan data with 32,581 applicants and 12 features, including loan
 amount, income, employment length, loan grade, and credit history.
 
 ## What I Built
-1. **Data Cleaning** — removed outliers and handled missing values
-2. **Logistic Regression** — baseline model, ROC-AUC: 0.763
-3. **XGBoost** — improved model with feature importance analysis, ROC-AUC: 0.946
-4. **Acceptance Rate Analysis** — shows how the default rate changes at different approval thresholds
-5. **Expected Loss Calculation** — quantifies money saved by using the model vs approving everyone
+1. **Data Cleaning**: removed outliers and handled missing values
+2. **Logistic Regression**: baseline model, ROC-AUC: 0.763
+3. **XGBoost**: improved model with feature importance analysis, ROC-AUC: 0.946
+4. **Acceptance Rate Analysis**: shows how the default rate changes at different approval thresholds
+5. **Expected Loss Calculation**: quantifies money saved by using the model vs approving everyone
 
 ## Key Finding
 By approving only the safest 50% of applicants, the model reduces the 
